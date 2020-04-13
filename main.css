@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  background-color: antiquewhite;
+  background-color: rgb(255,132,0);
+
 }
 body {
   margin:0;
@@ -8,14 +9,22 @@ body {
 .header {
 text-align: center;
 color:white;
+padding: 0;
+background-position-x: center;
+background-size: cover;
+display: block;
+width: 100%;
+}
+.header2 {
+  text-align: center;
+color:white;
 padding: 200px;
 background-position-x: center;
 background-color:black;
-background: url("./assets/tea.jpeg");
+background: url("./assets/shomal.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
 margin:0;
-
 }
 /* Nav bar */
 .topnav a {
@@ -57,4 +66,12 @@ text-decoration: none;
   background-color: aliceblue;
   padding: 10px;
   text-align: center;
-} */
+}*/ 
+.learn{
+  background-color: #df7219;
+  padding:200px;
+  text-align: left;
+}
+#lingo{
+  
+}

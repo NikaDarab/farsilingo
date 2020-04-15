@@ -68,10 +68,10 @@ text-decoration: none;
   text-align: center;
 }*/ 
 .learn{
-  background-color: #df7219;
-  padding:200px;
+  /* background-color: #df7219; */
+  padding:100px;
   text-align: left;
 }
 #lingo{
-  
+  background-color: blanchedalmond;
 }

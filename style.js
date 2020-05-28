@@ -1,6 +1,9 @@
-let select = () => {
-let a= document.getElementById("lingo");
-if(a.value = 1){
-    console.log("value 1");
-}
-}
+let dropDownValue = document.getElementById("dropDown");
+
+dropDownValue.onchange = function() {
+  if (this.selectedIndex !== 0) {
+    window.location.href = this.value;
+    let x = this.value;
+    document.getElementById("dropDown").innerHTML(x);
+  }
+};

@@ -1,10 +1,8 @@
-* {
+html, body {
   box-sizing: border-box;
-  background-color: rgb(255,132,0);
-
-}
-body {
+  background-color: rgb(255,139,0);
   margin:0;
+
 }
 .header {
 text-align: center;

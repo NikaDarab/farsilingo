@@ -79,5 +79,5 @@ text-decoration: none;
   transform-style: preserve-3d;
 }
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }

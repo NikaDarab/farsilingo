@@ -6,6 +6,7 @@ html, body {
 body {
   margin:0;
 }
+
 .header {
 text-align: center;
 color:white;
@@ -15,12 +16,12 @@ background-size: cover;
 display: block;
 width: 100%;
 }
+
 .header2 {
-  text-align: center;
+text-align: center;
 color:white;
 padding: 200px;
 background-position-x: center;
-background-color:black;
 background: url("./assets/shomal.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
@@ -50,10 +51,33 @@ text-decoration: none;
   table-layout: fixed;
   border-spacing: 10px;
 }
-
-/* responsive layout - makes the three column stack on top of each other*/
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  bottom: 20px;
+  
+}
+.form-field {
+  width: 100%;
+}
+.flip-card {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  perspective: 1000pz;
+}
+.flip-card-inner {
+  position:relative;
+  width: 100%;
+  height: 100%;
+  text-align: center; 
+  transition: transform 0.8s ;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg)
 }

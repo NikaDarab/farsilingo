@@ -9,20 +9,39 @@
     </head>
 <body>
     <div class="header">
-        <img src="./assets/FarsiLingo.png" alt="FarsiLingo logo">
+        <img src="./assets/FarsiLingo_Logo.png" alt="FarsiLingo logo">
         <h1></h1>
     </div>
-    <form action="" method="post">
-        <label for="name">
-            <input type="text" name="name" id="name">
-        </label>
-        <label for="email">
-            <input type="email" name="email" id="email">
-        </label>
-        <label for="upload">
-            <input type="file" name="upload" id="upload">
-        </label>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="form-container">
+        <form action="" method="post" >
+            <label for="name">
+                Name:
+                <br/>
+                <input class= "form-field" type="text" name="name" id="name">
+            </label>
+            <br/>
+            <label for="email">
+                Email:
+                <br/>
+                <input class = "form-field" type="email" name="email" id="email">
+            </label>
+            <br/>
+                Script:
+            <label for="script">
+                <textarea class ="form-field" type="text" name="script" id="script" rowsco="8">
+                </textarea>   
+            </label>
+            <br/>
+            <label for="upload">
+                Or:
+                <br/>
+                <input class="form-field" type="file" name="upload" id="upload">
+            </label>
+            <br/>
+            <br/>
+            <input class="form-field" type="submit" value="Submit">
+        </form>
+    </div>
+    
 </body>
 </html>

@@ -69,6 +69,11 @@ text-decoration: none;
 .form-field {
   width: 100%;
 }
+form {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
 .flip-card {
   width:200px;
   height: 80px;
